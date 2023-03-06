@@ -45,16 +45,13 @@ class FormEntry(ttk.Frame):
 
 
 
+# Example of usage
 if __name__ == "__main__":
-
-    # Example of usage
     from ttkbootstrap.constants import PRIMARY, SECONDARY
 
     app = ttk.Window(
         title="Test FormEntry Class",
         themename="litera",
-        size=(350, 450),
-        resizable=(False, False),
     )
     fentry1 = FormEntry(master=app,text="Name",width=50)
     fentry1.pack(side=tk.TOP, anchor=tk.W, padx=5, pady=5)
