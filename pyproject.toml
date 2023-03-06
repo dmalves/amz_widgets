@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "amz_widgets"
+version = "0.0.1"
+authors = [
+  { name="Daniel de Matos Alves", email="dmalves.programmer@outlook.com" },
+]
+description = "Collection of useful tkinter widgets"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+dependencies = [ 
+  "ttkbootsrap>=1.10.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dmalves/amz_widgets"
+"Bug Tracker" = "https://github.com/dmalves/amz_widgets/issues"
