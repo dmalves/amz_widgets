@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "amz_widgets"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Daniel de Matos Alves", email="dmalves.programmer@outlook.com" },
 ]
@@ -19,7 +19,7 @@ classifiers = [
 
 
 dependencies = [ 
-  "ttkbootsrap>=1.10.1"
+  "ttkbootstrap>=1.10.1"
 ]
 
 [project.urls]
