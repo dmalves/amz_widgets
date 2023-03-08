@@ -76,4 +76,4 @@ if __name__ == "__main__":
     
     _event(5)
    
-    tk.mainloop()
+    app.mainloop()
